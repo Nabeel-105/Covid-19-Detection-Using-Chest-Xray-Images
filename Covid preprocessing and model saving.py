@@ -10,7 +10,7 @@ from keras.layers.convolutional import Conv2D, MaxPooling2D
 from keras.layers.core import Dense, Dropout, Activation, Flatten
 
 
-imagepath="D:/Numl/fyp22/Split_covidpneumonia_Data/train"
+imagepath="path_train_data"
 catg=['COVID19','NORMAL']
 img_size=50
 Training_data=[]
@@ -39,7 +39,7 @@ x=x/255
 print(type(x))
 
 
-imagepath2="D:/Numl/fyp22/Split_covidpneumonia_Data/val"
+imagepath2="path_val_data"
 catg2=['COVID19','NORMAL']
 img_size2=50
 val_data=[]
