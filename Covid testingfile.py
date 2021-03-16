@@ -8,13 +8,13 @@ from keras.models import  load_model
 
 def covidtest():
  img_size=50
- filepath='C:/Users/nabeel/Desktop/Fyp covid and penumonia seprate modules/covid_Detection_savedmodel with 98%'
+ filepath='model_path_covid_Detection_savedmodel with 98%'
  model=load_model(filepath,compile=True)
 
  model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
  print("model loaded :)")
  
- testimagepath="D:/Numl/fyp22/Split_covidpneumonia_Data/test/COVID19/COVID19(549).jpg"
+ testimagepath="test_image_path"
  img = cv2.imread(testimagepath)
  img = cv2.resize(img,(img_size,img_size))
  img = np.reshape(img,[1,img_size,img_size,3])
