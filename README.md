@@ -1,0 +1,2 @@
+# Covid-19-Detection-Using-Chest-Xray-Images
+Our main targeted domain is “Artificial Intelligence” (AI). The sub domain of “Artificial Intelligence” that we are targeting is “Machine Learning”. The problem we are solving is the detection of “Covid-19”  using chest X-ray as input. The main focus of our solution is the separation of “Effected” &amp; “In-effected” one’s. Techniques we are going to utilize is “Image Classification” and for the neural network we are going to use “Convolutional Neural Network” (CNN).
